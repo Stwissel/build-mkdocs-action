@@ -6,7 +6,8 @@ runs:
   image: Dockerfile
   args:
     - build
-    - '--site-dir _site' 
+    - '--site-dir'
+    - '_site' 
 branding:
   icon: book-open
   color: blue
