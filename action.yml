@@ -1,0 +1,9 @@
+name: "build-mkdocs-action"
+description: "Github Action to build MkDocs for further processing"
+author: stwissel
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: book-open
+  color: blue
