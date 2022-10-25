@@ -4,6 +4,8 @@ author: stwissel
 runs:
   using: docker
   image: Dockerfile
+  args:
+    - build
 branding:
   icon: book-open
   color: blue
